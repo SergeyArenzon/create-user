@@ -1,0 +1,14 @@
+{
+  "name": "create-user",
+  "version": "1.0.0",
+  "description": "```javascript   // 1: get to \"/client\" and run:   npm i   // 2: get to \"/server\" and run:   npm i",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-all": "cd client && npm install && cd ../server && npm install",
+    "start-server": "cd server && npm start",
+    "start-client": "cd client && npm run dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
