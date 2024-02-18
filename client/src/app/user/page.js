@@ -3,7 +3,10 @@ import React, {useEffect, useState} from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import CircularProgress from '@mui/material/CircularProgress';
 
-const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+import { NEXT_PUBLIC_BACKEND_URL } from '@/app/config'
+
+
+const BACKEND_URL = NEXT_PUBLIC_BACKEND_URL;
 
 
 export default function page() {

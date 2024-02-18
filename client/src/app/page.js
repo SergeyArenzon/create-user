@@ -3,10 +3,10 @@ import TextField from '@mui/material/TextField';
 import { useForm } from 'react-hook-form';
 import { useSelector, useDispatch } from 'react-redux'
 import {setUser } from './feature/user/userSlice'
+import { NEXT_PUBLIC_BACKEND_URL } from '@/app/config'
 
 
-
-const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+const BACKEND_URL = NEXT_PUBLIC_BACKEND_URL;
 
 export default function Home() {
   const { register,unregister, handleSubmit, formState: { errors },getValues, reset } = useForm();
