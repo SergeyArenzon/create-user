@@ -1,5 +1,30 @@
 
 
+
+
+
+## Installation
+
+```javascript
+  // in root folder  
+  npm run install-all
+
+
+```
+
+## Usage
+
+```javascript
+  // in root folder  
+  npm run start-client
+  npm run start-server
+```
+
+
+
+
+-OR-
+
 ## Installation
 
 ```javascript
